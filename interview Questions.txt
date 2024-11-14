@@ -1,0 +1,89 @@
+MicroSoft
+----------------------------------------
+1. what are the extension methods?
+2. what is the delegates when will be use?
+3. boxing and un boxing ?
+4. difference between post and put?
+5. Difference Between dispose() and finalize() in C#?
+6. mvc archtecture?
+7. how to send data to view to controller?
+8. difference between string and stringbuilder?
+9. what is dynamic in c#?
+10.difference between dynamic and var key words?
+
+Morgan 
+--------------------------------------
+1. what is the use iQuerable ?
+2. what is Tuples?
+3. what is fragmentation caching?
+4. what is lock and monitor?
+5. what is satilite assembly?
+6. what is difference between private and shared assembly?
+7. what is code access security?
+8. what is early and late binding in c#?
+9. what is this keyword in c#? where will be use other than the object?
+10. what is constructor chaining in c#?
+11. when will be use delegates in c#?
+12. what is eventbubbling in javascript?
+13. what is javascript:void(0)?
+14. what is call and apply javascript?
+15. what is difference between var and let keyword in c#?
+16. what is difference between early and late binding ?
+17. what is difference between var and dynamic in c# ?
+18. what is difference between constant and readonly ?
+19. what is type nullable ?
+
+Thomson Router
+----------------------------------------------------
+
+1. how to inject two classes into one interface on demand in dependency injection?
+2. where we load xml ?
+ XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.Load("d:\\product.xml");
+            XmlNodeList nodeList = xmlDoc.DocumentElement.SelectNodes("/Table/Product");
+            string proID = "", proName = "", price="";
+            foreach (XmlNode node in nodeList)
+            {
+                proID = node.SelectSingleNode("Product_id").InnerText;
+                proName = node.SelectSingleNode("Product_name").InnerText;
+                price = node.SelectSingleNode("Product_price").InnerText;
+                MessageBox.Show(proID + " " + proName + " " + price);
+            }
+3. how to get default values from Generics?
+You are looking for this:
+
+default(T);
+so:
+
+public T Foo<T>(T Bar)
+{
+   return default(T);
+}
+4. open closed principle?
+5. what is reflection ?
+  var assemblies = Assembly.LoadFile(@args[0]).GetReferencedAssemblies();
+
+                if (assemblies.GetLength(0) > 0)
+                {
+                  foreach (var assembly in assemblies)
+                  {
+                    Console.WriteLine(assembly);
+                  }
+                  return 0;
+                }
+
+6. how to make synchronous call in angular?
+
+
+
+
+
+
+
+
+
+
+
+
+
+

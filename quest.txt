@@ -1,0 +1,5 @@
+1. Difference between IQueryable, IEnumerable and List?
+2. How to get a master page control value into the aspx page, give code?
+3. How to set different timeout for different roles?
+4. What are different joins in SQL Server? Explain all
+5. What is Restful service? What is model binding in web api? What is content negotiation in web api?
